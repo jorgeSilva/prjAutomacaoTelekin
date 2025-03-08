@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectar ao WhatsApp</title>
+    <style>
+        #logs {
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+            white-space: pre-wrap;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escaneie o QR Code para conectar ao WhatsApp</h1>
+    <img id="qrCode" src="" alt="QR Code de Conexão" style="display: none; width: 200px; height: 200px;">
+    
+    <h2>Mensagens de Log</h2>
+    <div id="logs"></div>
+
+    <script>
+        const ws = new WebSocket("ws://localhost:8080");
+
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            
+            // Exibir mensagens de log no frontend
+            if (data.type === "log") {
+                const logsContainer = document.getElementById("logs");
+                logsContainer.textContent += data.message + '\n'; // Adiciona a nova mensagem de log
+                logsContainer.scrollTop = logsContainer.scrollHeight; // Rola para a última linha
+            }
+
+            // Exibir QR Code
+            if (data.type === "qr") {
+                const qrImg = document.getElementById("qrCode");
+                qrImg.src = data.data;
+                qrImg.style.display = "block";
+            }
+        };
+
+        ws.onerror = (error) => {
+            console.error("Erro no WebSocket:", error);
+        };
+
+        ws.onclose = () => {
+            console.log("WebSocket desconectado. Tentando reconectar...");
+            setTimeout(() => location.reload(), 5000);
+        };
+    </script>
+</body>
+</html>

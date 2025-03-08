@@ -1,0 +1,23 @@
+{
+  "name": "prjboletoimpressaowpp",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "tesseract.js": "^6.0.0",
+    "whatsapp-web.js": "^1.26.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
