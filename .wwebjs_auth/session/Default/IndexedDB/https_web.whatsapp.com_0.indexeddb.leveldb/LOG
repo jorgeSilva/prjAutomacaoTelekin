@@ -1,50 +1,38 @@
-2025/03/08-11:26:08.762 2328 Reusing MANIFEST C:\Users\TELEKIN\Documents\prjBoletoImpressaoWpp\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/08-11:26:08.765 2328 Recovering log #1043
-2025/03/08-11:26:08.892 2328 Reusing old log C:\Users\TELEKIN\Documents\prjBoletoImpressaoWpp\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001043.log 
-2025/03/08-11:26:10.644 254c Level-0 table #1063: started
-2025/03/08-11:26:10.668 254c Level-0 table #1063: 369072 bytes OK
-2025/03/08-11:26:10.673 254c Delete type=0 #1043
-2025/03/08-11:26:10.674 2328 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1c\x00\x00\x05' @ 4651443 : 1
-2025/03/08-11:26:10.675 2328 Compacting 1@0 + 0@1 files
-2025/03/08-11:26:10.698 2328 Generated table #1064@0: 8542 keys, 182780 bytes
-2025/03/08-11:26:10.706 2328 Generated table #1065@0: 1834 keys, 26845 bytes
-2025/03/08-11:26:10.706 2328 Compacted 1@0 + 0@1 files => 209625 bytes
-2025/03/08-11:26:10.710 2328 compacted to: files[ 0 2 14 0 0 0 0 ]
-2025/03/08-11:26:10.711 2328 Delete type=2 #1063
-2025/03/08-11:26:10.712 2328 Manual compaction at level-0 from '\x00\x1c\x00\x00\x05' @ 4651443 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/03/08-11:26:12.469 2328 Compacting 1@1 + 10@2 files
-2025/03/08-11:26:12.648 2328 Generated table #1066@1: 51213 keys, 2229010 bytes
-2025/03/08-11:26:12.724 2328 Generated table #1067@1: 10641 keys, 2164009 bytes
-2025/03/08-11:26:12.772 2328 Generated table #1068@1: 2028 keys, 2153198 bytes
-2025/03/08-11:26:12.832 2328 Generated table #1069@1: 1788 keys, 2152731 bytes
-2025/03/08-11:26:12.880 2328 Generated table #1070@1: 2288 keys, 2156363 bytes
-2025/03/08-11:26:13.164 2328 Generated table #1071@1: 16624 keys, 2199939 bytes
-2025/03/08-11:26:13.248 2328 Generated table #1072@1: 25361 keys, 2274782 bytes
-2025/03/08-11:26:13.330 2328 Generated table #1073@1: 28500 keys, 2276962 bytes
-2025/03/08-11:26:13.391 2328 Generated table #1074@1: 10613 keys, 2194654 bytes
-2025/03/08-11:26:13.464 2328 Generated table #1075@1: 40795 keys, 2171463 bytes
-2025/03/08-11:26:13.516 2328 Generated table #1076@1: 4884 keys, 110980 bytes
-2025/03/08-11:26:13.517 2328 Compacted 1@1 + 10@2 files => 22084091 bytes
-2025/03/08-11:26:13.521 2328 compacted to: files[ 0 1 15 0 0 0 0 ]
-2025/03/08-11:26:13.522 2328 Delete type=2 #1047
-2025/03/08-11:26:13.522 2328 Delete type=2 #1048
-2025/03/08-11:26:13.522 2328 Delete type=2 #1049
-2025/03/08-11:26:13.522 2328 Delete type=2 #1050
-2025/03/08-11:26:13.522 2328 Delete type=2 #1051
-2025/03/08-11:26:13.522 2328 Delete type=2 #1052
-2025/03/08-11:26:13.522 2328 Delete type=2 #1053
-2025/03/08-11:26:13.523 2328 Delete type=2 #1054
-2025/03/08-11:26:13.523 2328 Delete type=2 #1055
-2025/03/08-11:26:13.523 2328 Delete type=2 #1056
-2025/03/08-11:26:13.523 2328 Delete type=2 #1064
-2025/03/08-11:26:32.567 2328 Compacting 1@1 + 4@2 files
-2025/03/08-11:26:32.723 2328 Generated table #1077@1: 101328 keys, 2251822 bytes
-2025/03/08-11:26:32.861 2328 Generated table #1078@1: 103180 keys, 2254444 bytes
-2025/03/08-11:26:33.179 2328 Generated table #1079@1: 70057 keys, 1564336 bytes
-2025/03/08-11:26:33.179 2328 Compacted 1@1 + 4@2 files => 6070602 bytes
-2025/03/08-11:26:33.193 2328 compacted to: files[ 0 0 14 0 0 0 0 ]
-2025/03/08-11:26:33.193 2328 Delete type=2 #1057
-2025/03/08-11:26:33.193 2328 Delete type=2 #1058
-2025/03/08-11:26:33.194 2328 Delete type=2 #1059
-2025/03/08-11:26:33.194 2328 Delete type=2 #1060
-2025/03/08-11:26:33.194 2328 Delete type=2 #1065
+2025/03/08-12:10:44.701 2cd0 Reusing MANIFEST C:\Users\TELEKIN\Documents\prjBoletoImpressaoWpp\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/08-12:10:44.702 2cd0 Recovering log #1134
+2025/03/08-12:10:44.713 2cd0 Reusing old log C:\Users\TELEKIN\Documents\prjBoletoImpressaoWpp\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001134.log 
+2025/03/08-12:10:46.240 347c Level-0 table #1150: started
+2025/03/08-12:10:46.256 347c Level-0 table #1150: 133600 bytes OK
+2025/03/08-12:10:46.262 347c Delete type=0 #1134
+2025/03/08-12:10:46.262 2cd0 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x00\x00\x05' @ 4732391 : 1
+2025/03/08-12:10:46.263 2cd0 Compacting 1@0 + 1@1 files
+2025/03/08-12:10:46.275 2cd0 Generated table #1151@0: 3191 keys, 66481 bytes
+2025/03/08-12:10:46.282 2cd0 Generated table #1152@0: 1170 keys, 26972 bytes
+2025/03/08-12:10:46.282 2cd0 Compacted 1@0 + 1@1 files => 93453 bytes
+2025/03/08-12:10:46.285 2cd0 compacted to: files[ 0 2 16 0 0 0 0 ]
+2025/03/08-12:10:46.286 2cd0 Delete type=2 #1150
+2025/03/08-12:10:46.287 2cd0 Manual compaction at level-0 from '\x00 \x00\x00\x05' @ 4732391 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/08-12:10:47.992 1f9c Compacting 1@1 + 9@2 files
+2025/03/08-12:10:48.175 1f9c Generated table #1153@1: 51236 keys, 2226632 bytes
+2025/03/08-12:10:48.284 1f9c Generated table #1154@1: 17272 keys, 2173322 bytes
+2025/03/08-12:10:48.340 1f9c Generated table #1155@1: 2031 keys, 2151877 bytes
+2025/03/08-12:10:48.391 1f9c Generated table #1156@1: 1902 keys, 2148314 bytes
+2025/03/08-12:10:48.442 1f9c Generated table #1157@1: 1982 keys, 2152185 bytes
+2025/03/08-12:10:48.524 1f9c Generated table #1158@1: 13834 keys, 2182400 bytes
+2025/03/08-12:10:48.658 1f9c Generated table #1159@1: 25086 keys, 2278171 bytes
+2025/03/08-12:10:48.793 1f9c Generated table #1160@1: 28241 keys, 2262535 bytes
+2025/03/08-12:10:48.854 1f9c Generated table #1161@1: 13601 keys, 2228741 bytes
+2025/03/08-12:10:48.862 1f9c Generated table #1162@1: 64 keys, 33125 bytes
+2025/03/08-12:10:48.862 1f9c Compacted 1@1 + 9@2 files => 19837302 bytes
+2025/03/08-12:10:48.866 1f9c compacted to: files[ 0 1 17 0 0 0 0 ]
+2025/03/08-12:10:48.867 1f9c Delete type=2 #1137
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1138
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1139
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1140
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1141
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1142
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1143
+2025/03/08-12:10:48.868 1f9c Delete type=2 #1144
+2025/03/08-12:10:48.869 1f9c Delete type=2 #1145
+2025/03/08-12:10:48.869 1f9c Delete type=2 #1146
+2025/03/08-12:10:48.869 1f9c Delete type=2 #1151
