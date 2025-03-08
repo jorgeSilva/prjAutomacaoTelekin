@@ -49,13 +49,14 @@ function startClient() {
         authStrategy: new LocalAuth(),
         puppeteer: {
             headless: true,
-            executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
+            executablePath: process.env.CHROME_PATH || '/usr/bin/chromium-browser',
             args: [
                 '--no-sandbox',
                 '--disable-setuid-sandbox',
                 '--disable-gpu',
                 '--disable-dev-shm-usage',
-                '--disable-extensions'
+                '--disable-extensions',
+                '--single-process'
             ]
         }
     });
